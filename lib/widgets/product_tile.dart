@@ -22,7 +22,7 @@ class ProductTile extends StatelessWidget {
         fontSize: 20, // Optional: set the font size
         fontWeight: FontWeight.bold, // Optional: set the font weight
       ),
-      subtitle: Text(product.description),
+      subtitle: Text(product.detailDescription),
       trailing: Text('\$${product.price}'),
       onTap: () {
         Navigator.push(
