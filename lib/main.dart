@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: ProductListScreen(), // Set the Product List Screen as the home screen
+      debugShowCheckedModeBanner: false, // Remove the debug banner// Set the Product List Screen as the home screen
     );
   }
 }
